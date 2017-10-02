@@ -6,7 +6,7 @@
 /*   By: eserebry <eserebry@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/09/25 23:32:15 by eserebry          #+#    #+#             */
-/*   Updated: 2017/09/29 02:53:52 by eserebry         ###   ########.fr       */
+/*   Updated: 2017/10/02 16:04:57 by eserebry         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,7 +56,6 @@ int				main(int ac, const char **av)
 
 	if (ac != 2)
 		ft_putendl("usage: ./fdf <test_file>");
-	else
 	{
 		if (!(fd = open(av[1], O_RDONLY)))
 			return (0);
